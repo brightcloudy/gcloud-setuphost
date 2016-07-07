@@ -10,3 +10,4 @@ mkdir -p ~/.vim/colors && cp ~/.vim/bundle/vim-colors-solarized/colors/solarized
 cp ~/brighty-rcfiles/.tmux.conf ~/
 sudo apt-get -y install tmux tmate
 ln -s .tmux.conf .tmate.conf
+rm -rf ~/brighty-rcfiles/
