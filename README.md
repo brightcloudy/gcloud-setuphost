@@ -10,3 +10,9 @@
     - copies .tmux.conf to ~
     - installs tmux and tmate
     - symlinks ~/.tmux.conf to ~/.tmate.conf
+  - sshkeys-setup.sh
+    - generates RSA key to ~/.ssh/id_rsa with no passphrase
+    - uses GitHub OAuth token in .github_token to add SSH key to github account with hostname as description
+
+## Usage
+  - Generate a new [GitHub API OAuth token](https://github.com/settings/tokens) and place the token in .github_token in this directory
